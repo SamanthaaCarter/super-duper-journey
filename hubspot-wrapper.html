@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cropped HubSpot Dashboard</title>
+  <style>
+    .iframe-wrapper {
+      width: 1000px;
+      height: 600px;
+      overflow: hidden;
+      position: relative;
+      border: none;
+    }
+
+    .iframe-inner {
+      position: absolute;
+      top: -120px;  /* Adjust to remove top ribbon */
+      left: -220px; /* Adjust to remove left menu */
+      width: 1400px; /* Match full HubSpot page width */
+      height: 1000px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-wrapper">
+    <iframe 
+      class="iframe-inner" 
+      src="https://app.hubspot.com/reports-dashboard/48488577/view/16571114" 
+      frameborder="0">
+    </iframe>
+  </div>
+</body>
+</html>
